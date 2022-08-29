@@ -3,7 +3,7 @@ from sqlalchemy import Column, String, Integer, create_engine
 from flask_sqlalchemy import SQLAlchemy
 from dotenv import dotenv_values
 
-db_config = dotenv_values
+db_config = dotenv_values(".env")
 
 database_name = 'trivia'
 database_path = 'postgresql://{}:{}@{}/{}'.format(db_config['USERNAME'], db_config['PASSWORD'], 'localhost:5432', database_name)
