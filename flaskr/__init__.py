@@ -47,7 +47,7 @@ def create_app(test_config=None):
     #Endpoint to handle GET requests for all available categories.
     @app.route('/')
     def index():
-        return "Hello World"
+        return "<h1>Hello World</h1>"
 
     #Endpoint to handle GET requests for all available categories.
     @app.route('/categories')
