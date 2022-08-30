@@ -1,4 +1,4 @@
-from flaskr.__init__ import app
+from flaskr.__init__ import create_app
 
 if __name__ == "__main__":
-    app.run()
+    create_app()
