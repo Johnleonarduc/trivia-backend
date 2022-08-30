@@ -40,7 +40,7 @@ def create_app(test_config=None):
             "Access-Control-Allow-Headers", "Content-Type,Authorization,true"
         )
         response.headers.add(
-            "Access-Control-Allow-Origin", "*"
+            "Access-Control-Allow-Origin", "https://main--astonishing-gnome-e6de79.netlify.app, *"
         )
         response.headers.add(
             "Access-Control-Allow-Credentials", "true"
