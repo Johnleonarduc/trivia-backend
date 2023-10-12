@@ -2,6 +2,7 @@ aniso8601
 Click
 Flask
 Flask-Cors
+Flask-Migrate
 Flask-RESTful
 Flask-SQLAlchemy
 itsdangerous
